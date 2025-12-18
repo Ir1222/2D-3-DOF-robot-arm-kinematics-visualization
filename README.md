@@ -10,17 +10,18 @@ It provides analytical **forward and inverse kinematics** solutions together wit
 
 ## Features
 
-- Analytical forward and inverse kinematics for a 2D 3-DOF planar robot arm
-2D 3DOF的平面机械臂的正逆运动学解析
+- Analytical forward and inverse kinematics for a 2D 3-DOF planar robot arm  
+  二维三自由度平面机械臂的正运动学与逆运动学解析求解
 
-- Interactive visualization using Matplotlib
-利用Matplotlib可交互界面
+- Interactive visualization using Matplotlib  
+  基于 Matplotlib 的交互式可视化界面
 
-- Real-time update of robot configuration and trajectories
-实时更新机械臂轨迹移动
+- Real-time update of robot configuration and trajectories  
+  机械臂姿态与运动轨迹的实时更新
 
-- Intuitive exploration of joint angles, link lengths, and end-effector position
-自定义机械臂长度，关节角度和期望姿态
+- Intuitive exploration of joint angles, link lengths, and end-effector position  
+  支持自定义机械臂长度、关节角度以及期望末端执行器位置
+
 
 ## Project Structure
 
@@ -95,7 +96,21 @@ python inverse.py
 ## Motivation
 
 This project aims to help build intuition about robot kinematics and serves as a foundation for further studies in robot dynamics and control.
-此项目建立于本人大一暑假。在初次学习了robot kinematics后做出的简单程序，在很大程度上助力本人理解简单机械臂运动的过程。虽然并不复杂，但对于当时的这个人来说也算是很大的工作量。感谢大一的自己。
+此项目建立于本人大一暑假。在初次学习了robot kinematics后做出的简单程序，在很大程度上助力本人理解简单机械臂运动的过程。虽然并不复杂，但对于当时的这个人来说也算是很大的工作量。
+
+---
+
+## Publication
+
+This project is associated with the following conference paper:
+
+**Simplified Forward and Inverse Kinematics with Python: A Visual and Interactive Approach**  
+Sami Salama Hussen Hajjaj, **Yiqian Pan**  
+*Selected Proceedings from the 2nd International Conference on Intelligent Manufacturing and Robotics (ICIMR 2024)*, Springer, 2025.
+
+🔗 [Official publication page (Springer)](https://link.springer.com/chapter/10.1007/978-981-96-3949-6_66)
+
+
 
 
 
