@@ -11,19 +11,15 @@ It provides analytical **forward and inverse kinematics** solutions together wit
 ## Features
 
 - Analytical forward and inverse kinematics for a 2D 3-DOF planar robot arm
-
 2D 3DOF的平面机械臂的正逆运动学解析
 
 - Interactive visualization using Matplotlib
-
 利用Matplotlib可交互界面
 
 - Real-time update of robot configuration and trajectories
-
 实时更新机械臂轨迹移动
 
 - Intuitive exploration of joint angles, link lengths, and end-effector position
-
 自定义机械臂长度，关节角度和期望姿态
 
 ## Project Structure
@@ -41,10 +37,12 @@ Robot-Kinematics-Sim/
 ---
 
 ## How to run
-
+```md
 git clone https://github.com/Ir1222/Robot-Kinematics-Sim.git
 
 cd Robot-Kinematics-Sim
+```
+
 
 ---
 
@@ -97,7 +95,7 @@ python inverse.py
 ## Motivation
 
 This project aims to help build intuition about robot kinematics and serves as a foundation for further studies in robot dynamics and control.
-
+此项目建立于本人大一暑假。在初次学习了robot kinematics后做出的简单程序，在很大程度上助力本人理解简单机械臂运动的过程。虽然并不复杂，但对于当时的这个人来说也算是很大的工作量。感谢大一的自己。
 
 
 
